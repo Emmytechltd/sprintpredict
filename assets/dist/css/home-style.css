@@ -1,0 +1,388 @@
+< !--body {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+h3.body-header {
+    color: #ece2e2;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.home-show-wrapper {
+    text-align: center
+}
+
+.myheader {
+    color: #ff6;
+}
+
+.home-show {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto
+}
+
+.home-show img {
+    width: 100%;
+    max-width: 1400px
+}
+
+.home-body-wrapper,
+.home-body-wrapper * {
+    text-align: center
+}
+
+.home-body {
+    width: 100%;
+    padding: 10px
+}
+
+.home-body a:hover {
+    text-decoration: none;
+    color: #210dd8
+}
+
+.section-title {
+    padding: 20px;
+    background: #5708e9;
+    text-align: left;
+    border-left: 6px solid rgb(230, 126, 126);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.item-toggle {
+    background: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 12px
+}
+
+.item-toggle:not(.current):hover {
+    background: #034933;
+    color: #fff
+}
+
+.item-toggle.current {
+    background: #fff;
+    color: #fff
+}
+
+.section-body {
+    padding: 10px;
+    background: #e7f0ea
+}
+
+.section-body-content:not(.current) {
+    display: none
+}
+
+.section-body-table {
+    width: 100%
+}
+
+.section-body-table tr {
+    border-bottom: 5px solid #1c59f3
+}
+
+.section-body-table td {
+    padding: 5px
+}
+
+.section-body-table .white-td {
+    background: #0e3f1f;
+    color: #fff;
+    width: 40px;
+    border: 1px solid #1e8944
+}
+
+#button {
+    padding-left: 4px;
+    font-size: 15px;
+}
+
+.labels {
+    list-style-type: square;
+    margin-left: 15px;
+}
+
+.button {
+    background: #a7dfba;
+    border-top: 1px solid #54a571;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    height: 28px;
+    line-height: 27px;
+    width: 51px;
+    height: 29px;
+    display: inline;
+}
+
+.loginreg {
+    width: 110px;
+    height: 28px;
+    border-top: 1px solid #40434c;
+    border-bottom: 1px solid #40434c;
+    color: #6ddf95;
+    font-size: 11px;
+    background-color: hsla(141, 64%, 15%, 0.37);
+    padding: 0 0 0 10px;
+    box-shadow: inset 0 5px 10px 3px #0e0e0e;
+    border-right: none;
+    border-left: none;
+}
+
+.logineg {
+    width: 200px;
+    height: 30px;
+    border-top: 1px solid #40434c;
+    border-bottom: 1px solid #40434c;
+    color: #6ddf95;
+    font-size: 11px;
+    background-color: #0e3f1f;
+    padding: 0 0 0 10px;
+    box-shadow: inset 0 5px 10px 3px #0e0e0e;
+    border-right: none;
+    border-left: none;
+}
+
+.copyright-container {
+    background-color: #1a1a1a;
+}
+
+.writeups {
+    font-size: 15px;
+    padding: 50px;
+}
+
+.section-body-table .red-td {
+    background: #0e3f1f;
+}
+
+.section-body-table .white-bg {
+    background: #fff;
+}
+
+.section-body-table .white-bg a.win {
+    color: #0a2b16;
+}
+
+.section-body-table .white-bg a.lose {
+    color: #990000;
+}
+
+.section-body-table .black-td {
+    background: #000;
+    width: 70px
+}
+
+.winning-tips-section {
+    background: #dcdcdc
+}
+
+.winning-tips-section a:hover {
+    color: #034933
+}
+
+.winning-tips-section .section-body-table img {
+    min-width: 50px
+}
+
+.winning-tips-section .section-title span {
+    float: right;
+    width: 100px;
+    font-size: 10px;
+    margin-right: -10px
+}
+
+.odds-tips {
+    padding: 20px;
+    background: #0e3f1f
+}
+
+.odds-tips,
+.odds-tips * {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.odds-tips a {
+    font-size: 14px;
+    padding: 10px
+}
+
+i.tips-circle {
+    font-size: 15px;
+    color: #fff;
+    padding: 20px;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -khtml-border-radius: 100%
+}
+
+.tips-date {
+    font-size: 14px;
+    font-weight: 700;
+    display: block
+}
+
+.green {
+    background: #090 !important
+}
+
+.red {
+    background: #fff !important
+}
+
+.blue {
+    background: #009 !important
+}
+
+.black {
+    background: #000 !important
+}
+
+.item-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%)
+}
+
+.item-wrapper .item-inner {
+    margin: 5px
+}
+
+.item-wrapper .item-details {
+    padding: 5px;
+    background: #0e3f1f
+}
+
+.item-wrapper * {
+    text-transform: uppercase
+}
+
+.item-wrapper h4 {
+    font-weight: 700;
+    font-size: 14px
+}
+
+.item-wrapper span {
+    display: block;
+    font-size: 12px;
+    color: #9e9caa
+}
+
+@media(max-width:1000px) {
+    .item-wrapper {
+        grid-template-columns: repeat(3, 33.3333333333%)
+    }
+}
+
+@media(max-width:750px) {
+    .item-wrapper {
+        grid-template-columns: repeat(2, 50%)
+    }
+}
+
+.item-wrapper2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 50%)
+}
+
+.social-wrapper {
+    display: table;
+    width: 100%
+}
+
+.social-wrapper div {
+    display: table-cell;
+    padding: 10px
+}
+
+.plans-section {
+    min-height: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #03bd42;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.iagree {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+
+.plans-section * {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.plans-section *:not(a) {
+    font-size: 20px;
+}
+
+.terms,
+.termsbody {
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+}
+
+.terms,
+.termsbody * {
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+}
+
+.plan-body a {
+    font-size: 14px;
+    border: 2px solid #fff;
+    padding: 10px
+}
+
+.plan-body a:hover {
+    border: 2px solid #034933;
+    background: #034933;
+    color: #fff
+}
+
+.plan-header {
+    border-left: 6px solid #fff;
+    padding: 20px;
+    border-bottom: #fff 1px solid;
+    color: #fff;
+}
+
+.plan-body {
+    padding: 20px;
+    color: #fff;
+}
+
+.last-statement,
+.last-statement * {
+    text-align: left !important
+}
+
+-->
