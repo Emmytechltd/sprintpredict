@@ -210,12 +210,12 @@ h3.body-header {
 
 .odds-tips {
     padding: 20px;
-    background: #0e3f1f
+    background: #0322ce;
 }
 
 .odds-tips,
 .odds-tips * {
-    color: #000;
+    color: #eceffd;
     font-size: 20px;
     font-weight: 700
 }
@@ -269,7 +269,7 @@ i.tips-circle {
 
 .item-wrapper .item-details {
     padding: 5px;
-    background: #0e3f1f
+    background: #72da3a
 }
 
 .item-wrapper * {
@@ -284,7 +284,7 @@ i.tips-circle {
 .item-wrapper span {
     display: block;
     font-size: 12px;
-    color: #9e9caa
+    color: #df113e
 }
 
 @media(max-width:1000px) {
@@ -319,7 +319,7 @@ i.tips-circle {
     min-height: 300px;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #03bd42;
+    background-color: #bd0350;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -348,7 +348,7 @@ i.tips-circle {
 .terms,
 .termsbody {
     background-color: #fff;
-    color: #000;
+    color: rgb(85, 55, 55);
     font-size: 15px;
 }
 
