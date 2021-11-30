@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(grey, rgb(228, 208, 208));
+}
+p{
+    color: purple;
+    padding: 40px;
+    margin: auto;
+    font-size: 30px;
+    font-family: "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap";
+
+}
+img {
+    margin-left: 500px;
+}
