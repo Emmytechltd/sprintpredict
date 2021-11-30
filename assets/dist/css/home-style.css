@@ -1,4 +1,4 @@
-< !--body {
+ body {
     color: #fff;
 }
 
@@ -169,7 +169,7 @@ h3.body-header {
 }
 
 .section-body-table .red-td {
-    background: #0e3f1f;
+    background: linear-gradient(#e66465, #9198e5);;
 }
 
 .section-body-table .white-bg {

@@ -146,9 +146,9 @@ img {
 
 .gen-btn {
     background: #0ef3ab;
-    color: #fff !important;
+    color: rgb(10, 201, 96)255, 255, 255 !important;
     border: 1px solid #0ef3ab;
-    padding: 10px
+    padding: 10px;
 }
 
 .gen-title *,
@@ -346,13 +346,13 @@ form {
 }
 
 .upper-nav-wrapper {
-    background: #09544f;
+    background: linear-gradient(purple,grey);
     width: 100%
 }
 
 .upper-nav {
-    width: 100%;
-    max-width: 1200px;
+    width: 90%;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto
 }
@@ -366,7 +366,7 @@ form {
 
 .upper-nav-wrapper ul li {
     display: inline;
-    color: #fff
+    color: goldenrod
 }
 
 .upper-nav-wrapper ul li a {
@@ -420,8 +420,8 @@ form {
 
 .top-set button:hover,
 .top-set-mobile button:hover {
-    background: #fff;
-    color: #fff
+    background: rgb(190, 126, 126);
+    color: rgb(196, 107, 107)
 }
 
 button.collapse {
@@ -571,7 +571,7 @@ button.collapse span {
     .top-nav-wrapper ul li div.cat-megamenu {
         position: relative;
         z-index: 20;
-        background: #0e3f1f;
+        background: #025f2331;
         left: 0;
         right: 0;
         padding: 20px
